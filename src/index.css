@@ -1,14 +1,224 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.beginBody {
+  background-image: url("./static/begin.jpg");
+  background-size: cover;
+  width: 1440px;
+  height: 789px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.startBody {
+  position: absolute;
+  background-image: url("./static/start.jpg");
+  background-size: cover;
+  width: 1440px;
+  height: 789px;
+}
+
+img{
+  width: 1280px;
+}
+
+.beginGame {
+  position: absolute;
+  top: 620px;
+  left: 1060px;
+  width: 240px;
+  height: 60px;
+}
+
+.startButton {
+  position: absolute;
+  left: 580px;
+  width: 280px;
+  height: 60px;
+  z-index: 0;
+}
+
+.newGame {
+  top:180px;
+}
+
+.continueGame {
+  top:260px;
+}
+
+.help {
+  top:340px;
+}
+
+.setting {
+  top:410px;
+}
+
+.other {
+  top: 490px;
+}
+
+.quit {
+  top: 570px;
+}
+
+.settingM {
+  position: absolute;
+  top: 100px;
+  left: 420px;
+  width: 600px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+.settingButton {
+  position: absolute;
+  left: 610px;
+  width: 200px;
+  height: 50px;
+  z-index: 2;
+}
+
+.gameMusic {
+  top: 310px;
+}
+
+.gameMusicM {
+  position: absolute;
+  top: 130px;
+  left: 435px;
+  width: 570px;
+  z-index: 3;
+  border-radius: 40px;
+}
+
+.gameMusicCircleLeft {
+  position: absolute;
+  top: 520px;
+  left: 730px;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #e1e1e1;
+}
+
+.gameMusicCircleRight {
+  position: absolute;
+  top: 520px;
+  left: 800px;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #e1e1e1;
+}
+
+.backgroundMusic {
+  top: 400px;
+}
+
+.backgroundMusicM {
+  position: absolute;
+  top: 130px;
+  left: 435px;
+  width: 570px;
+  z-index: 3;
+  border-radius: 40px;
+}
+
+.circleOneLeft {
+  position: absolute;
+  top: 516px;
+  left: 670px;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #e1e1e1;
+}
+
+.circleOneRight {
+  position: absolute;
+  top: 516px;
+  left: 720px;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #e1e1e1;
+}
+
+.circleTwoLeft {
+  position: absolute;
+  top: 420px;
+  left: 670px;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #e1e1e1;
+}
+
+.circleTwoRight {
+  position: absolute;
+  top: 420px;
+  left: 720px;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #e1e1e1;
+}
+
+.controlWay {
+  top: 490px;
+}
+
+.controlWayM {
+  position: absolute;
+  top: 130px;
+  left: 435px;
+  width: 570px;
+  z-index: 3;
+  border-radius: 40px;
+}
+
+.circleThreeLeft {
+  position: absolute;
+  top: 397px;
+  left: 643px;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #e1e1e1;
+}
+
+.circleThreeRight {
+  position: absolute;
+  top: 397px;
+  left: 715px;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #e1e1e1;
+}
+
+.helpM {
+  position: absolute;
+  top: 180px;
+  left: 270px;
+  width: 900px;
+  z-index: 3;
+  border-radius: 40px;
+}
+
+.otherM {
+  position: absolute;
+  top: 130px;
+  left: 435px;
+  width: 570px;
+  z-index: 3;
+  border-radius: 40px;
 }

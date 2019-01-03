@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Route } from 'react-router-dom';
+import store from './store'
+import './reset.css'
+import './index.css';
+import Begin from './pages/begin'
+import Start from './pages/start'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Provider store={ store }>
+        <BrowserRouter>
+          <div>
+            <Route path='/begin' exact component={Begin}/>
+            <Route path='/start' exact component={Start}/>
+          </div>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
