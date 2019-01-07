@@ -57,7 +57,9 @@ class Start extends Component {
 
     return (
       <div className='startBody'>
-        <div className="startButton newGame"/>
+        <Link to='/game' >
+          <div className="startButton newGame"/>
+        </Link>
         <div className="startButton continueGame"/>
         <div onClick={ changeHelp } className="startButton help"/>
         {
